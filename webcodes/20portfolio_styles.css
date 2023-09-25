@@ -1,0 +1,137 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: list-item;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+.nav-list a {
+    display: block;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.welcome-section > p {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--main-red);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: var(--main-blue);
+}
+
+.projects-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.1rem solid var(--main-white);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.project-title {
+    font-size: 2rem;
+    padding-top: rem;
+    padding-bottom: 1rem;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: var(--main-gray);
+}
+
+h2 {
+    display: block;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: var(--main-red);
+    text-decoration: underline;
+}

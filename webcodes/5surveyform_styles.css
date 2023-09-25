@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    margin: 0px;
+    background: linear-gradient(#f12004, #fb7105, #970409);
+    color: white;
+    font-family: Tahoma;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Tahoma;
+    color: #FF1801;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 50%);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    padding: 0 0 2em 0;
+}
+
+label {
+    display: block;
+    color: black;
+    margin: 0.5rem 0;
+}
+  
+input, select, textarea {
+    width: 100%;
+    min-height: 2em;
+    margin: 5px 0 0 0;
+}
+  
+input[type="radio"] {
+    width: unset;
+}
+  
+input[type="checkbox"] {
+    width: unset;
+}
+
+legend {
+    color: black;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #970409;
+    color: white;
+    border: 0px none;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+.inline {
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+p {
+    margin-top: 10px;
+    font-style: italic;
+}

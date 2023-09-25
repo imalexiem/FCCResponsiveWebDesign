@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="5surveyform_styles.css">
+        <title> Survey Form </title>
+    </head>
+    <body>
+        <div class="form">
+            <h1 id="title"> Formula One's Survey Form </h1>
+            <p id="description">Thank you for taking the time to help us improve the sport! </p>
+
+            <form id="survey-form">
+                <label for="name" id="name-label">
+                    Name
+                    <input id="name" type="text" placeholder="Enter your name" required>
+                </label>
+    
+                <label for="email" id="email-label">
+                    Email
+                    <input id="email" type="email" placeholder="Enter your e-mail" required>
+                </label>
+    
+                <label for="number" id="number-label">
+                    Age
+                    <input id="number" type="number" min="5" max="100" placeholder="Age">
+                </label>
+    
+                <label for="dropdown" id="options">
+                    Where did you learn Formula One?
+                    <select id ="dropdown" name="dropdown">
+                    <option value="">
+                        (select one)
+                    </options>
+                    <option value="1">
+                        Family
+                    </option>
+                    <option value="2">
+                        Social Media
+                    </option>
+                    <option value="3">
+                        Drive to Survive
+                    </option>
+                    <option value="4">
+                        Other
+                    </option>
+                    </select>
+                </label>
+    
+                <legend>
+                    Are you a Red Bull Fan?
+                    <label for="yes">
+                    <input type="radio" name="redbull" value="yes" id="yes" class="inline"> Yes 
+                    </label>
+    
+                    <label for="no">
+                    <input type="radio" name="redbull" value="no" id="no" class="inline"> No 
+                    </label>
+                </legend>
+    
+                <legend>
+                    Which team are you supporting?
+                    <label for="redbull">
+                    <input type="checkbox" id="redbull" name="team" value="redbull" class="inline">
+                    Red Bull
+                    </label>
+    
+                    <label for="mercedes">
+                    <input type="checkbox" id="mercedes" name="team" value="mercedes" class="inline">
+                    Mercedes
+                    </label>
+    
+                    <label for="Ferrari">
+                    <input type="checkbox" id="ferrari" name="team" value="ferrari" class="inline">
+                    Ferrari
+                    </label>
+                </legend>
+    
+                <label for="comments">
+                    Give us your comments
+                    <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Tell us your thoughts"> </textarea>
+                </label>
+                
+                <input type="submit" id="submit">
+            </form>
+        </div>
+    </body>
+</html>

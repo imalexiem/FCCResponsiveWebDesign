@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: #a3a5a1;
+    margin: 0;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.nickname {
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid black;
+}
+
+figcaption {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.figure {
+    padding-top: 1px;
+}
+
+.tribute-info h3 {
+    text-align: center;
+}
+
+.tribute-info p {
+    margin-left: 15%;
+    font-weight: 600;
+}
+
+.tribute-info ul {
+    margin-left: 16%;
+    margin-right: 10%;
+}
+
+
+.tribute-closing {
+    color: #f90725;
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}

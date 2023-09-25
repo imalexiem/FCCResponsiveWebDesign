@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="14techdocu_styles.css">
+    <title> Technical Documentation Page </title>
+  </head>
+  <body>
+    <main id="main-doc">
+
+      <nav id="navbar">
+        <header>C Language Documentation</header>
+        <ul>
+          <li><a class="nav-link" href="#introduction">Introduction</a></li>
+          <li>
+            <a class="nav-link" href="#variables">Variables</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#functions">Functions</a>
+          </li>
+          <li><a class="nav-link" href="#control_structures">Control Structures</a></li>
+          <li><a class="nav-link" href="#pointers">Pointers</a></li>
+              </ul>
+      </nav>
+  
+
+      <section class="main-section" id="introduction">
+        <header class="introduction"> 
+          <h2 class="header"> Introduction </h2>
+        </header>
+        <p> Welcome to the technical documentation for the C programming language. C is a powerful and versatile programming language that has been widely used for over four decades. This documentation will provide you with a comprehensive understanding of the language, its syntax, and key concepts. </p>
+        <code> printf("Hello World!"); </code>
+        <h3> What is C? </h3>
+        <p> C is a general-purpose, procedural programming language developed by Dennis Ritchie in the early 1970s at Bell Labs. It is known for its efficiency, low-level control, and portability. C has been the foundation for many other programming languages, and it continues to be a fundamental language in software development. </p>
+        <h3> Key Features </h3>
+        <p> C offers several key features that make it a popular choice for system programming, embedded systems, and application development: </p>
+        <ul>
+          <li> Low-level memory manipulation </li>
+          <li> High performance </li>
+          <li> Portability </li>
+          <li> Extensive standard library </li>
+          <li> Procedural programming paradigm </li>
+        </ul>
+        <p> In this documentation, we will explore the essential concepts of C, starting with variables. </p>
+      </section>
+
+      <section class="main-section" id="variables">
+        <header class="variables"> 
+          <h2 class="header"> Variables </h2>
+        </header>
+        <p> Variables in C are used to store and manipulate data. They are crucial for any program as they allow you to work with values of different types. C supports various data types, including: </p>
+        <ul>
+          <li> int: Integer data type </li>
+          <li> float: Floating-point data type </li>
+          <li> char: Character data type </li>
+          <li> double: Double-precision floating-point data type </li>
+        </ul>
+        <code> int age; float salary; char grade; </code>
+      </section>
+
+      <section class="main-section" id="functions">
+        <header class="functions"> 
+          <h2 class="header"> Functions </h2>
+        </header>
+        <p> Functions in C allow you to encapsulate a specific set of actions into a reusable block of code. They play a crucial role in modular programming and code organization. Here's how you declare and define a simple function in C: </p>
+        <code> // Function declaration <br>
+int add(int a, int b); <br> // Function definition <br> int add(int a, int b) {
+    return a + b; } </code>
+    <p> Functions can have parameters and return values, making them versatile for solving a wide range of problems. You can also use library functions provided by C or create your own custom functions. </p>
+      </section>
+
+      <section class="main-section" id="control_structures">
+        <header class="control_structures"> 
+          <h2 class="header"> Control Structures </h2>
+        </header>
+        <p> Control structures in C allow you to control the flow of your program. Key control structures include: </p>
+        <ul>
+          <li> if-else: Conditional branching </li>
+          <li> for: Looping construct for iteration </li>
+          <li> while: Another looping construct </li>
+          <li> switch: Multi-branching based on a value </li>
+        </ul>
+        <code>
+          int age = 25; <br> 
+if (age >= 18) { <br>
+    printf("You are an adult."); <br>
+} else { <br> 
+    printf("You are a minor."); } </code>
+      </section>
+
+      <section class="main-section" id="pointers">
+        <header class="pointers"> 
+          <h2 class="header"> Pointers </h2>
+        </header>
+        <p> Pointers are a unique and powerful feature in C that allow you to work with memory addresses directly. They are crucial for tasks like dynamic memory allocation and low-level operations. Here's a simple pointer declaration: </p>
+        <code> int *ptr; </code>
+        <p> This declares a pointer to an integer. Pointers can be used for various purposes, such as accessing the address of variables, passing data by reference, and creating dynamic data structures like linked lists. </p>
+      </section>
+
+    </main>
+  </body>
+</html>
